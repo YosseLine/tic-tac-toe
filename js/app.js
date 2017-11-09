@@ -1,5 +1,5 @@
 var board = document.querySelector('.board-js');
-var centinel = false;
+var centinel = true;
 var count = 0;
 var winner = false;
 var s1 = document.getElementById('s1');
@@ -19,11 +19,11 @@ window.onload = function(){
 function addX(event){
   if(event.target.matches('td') && event.target.textContent === ''){
     if(centinel){
-      event.target.textContent = "O";
+      event.target.textContent = "X";
       centinel= false;
       count++;
     }else{
-      event.target.textContent = "X";
+      event.target.textContent = "O";
       centinel= true;
       count++;
     }
