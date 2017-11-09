@@ -32,8 +32,6 @@ body{
 
 button{
   display: inline-block;
-  position: relative;
-  left: 190px;
   margin-top: 40px;
   padding: 20px;
   border-radius: 5px;
@@ -43,6 +41,30 @@ button{
   background-color: pink;
 }
 
+div.container-results{
+  display: inline-block;
+  border-radius: 5px;
+  float: left;
+  margin-left: 22px;
+  top: 50px;
+  width: 350px;
+  height: 220px;
+  background-image: url("https://pa1.narvii.com/6323/aaaae62a7086d61b7418fb5ab3526f43ea3308b6_hq.gif");
+  border-style: ridge;
+}
+div.container-results h3{
+  text-align: center;
+}
+
+div.results{
+  display: inline-block;
+  border-radius: 5px;
+  width: 300px;
+  height: 180px;
+  background-color: pink;
+  opacity: 0.8;
+  margin-top: 5px;
+}
 figure.pusheen, figure.pusheen img{
   display: inline-block;
   float: right;
