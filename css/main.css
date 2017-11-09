@@ -1,0 +1,50 @@
+/*Resetear*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.board{
+  margin: 100px auto 0;
+  border-collapse: collapse;
+}
+.board td{
+  width: 100px;
+  height: 100px;
+  border: 5px solid black;
+  text-align: center;
+  font-size: 65px;
+  font-family: cursive;
+}
+.board td:hover{
+  background-image: url("http://tusimagenesde.com/wp-content/uploads/2017/08/fondos-kawaii-3.png");
+  max-width: 100%;
+}
+
+tr.removing-border-top td{
+    border-top-style: none;
+}
+tr.removing-border-bottom td{
+    border-bottom-style: none;
+}
+
+td.removing-border-left{
+  border-left-style: none;
+}
+
+td.removing-border-right{
+  border-right-style: none;
+}
+
+button{
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px;
+  font-family: monospace;
+  font-weight: 900;
+  border: 3px outset pink;
+  background-color: pink;
+  left: 480px;
+}
