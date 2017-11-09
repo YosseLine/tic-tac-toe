@@ -48,7 +48,7 @@ div.container-results{
   margin-left: 22px;
   top: 50px;
   width: 350px;
-  height: 220px;
+  height: 120px;
   background-image: url("https://pa1.narvii.com/6323/aaaae62a7086d61b7418fb5ab3526f43ea3308b6_hq.gif");
   border-style: ridge;
 }
@@ -60,13 +60,15 @@ div.results{
   display: inline-block;
   border-radius: 5px;
   width: 300px;
-  height: 180px;
+  height: 80px;
   background-color: pink;
   opacity: 0.8;
   margin-top: 5px;
 }
+h1#result{
+  margin-top: 20px;
+}
 figure.pusheen, figure.pusheen img{
   display: inline-block;
   float: right;
-
 }
