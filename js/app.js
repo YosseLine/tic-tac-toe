@@ -1,5 +1,6 @@
 window.onload = function(){
   var board = document.querySelector('.board-js');
+  document.getElementById("button").addEventListener("click", reset);
 board.addEventListener('click',addX);
 }
 var centinel = true;
@@ -16,7 +17,6 @@ function addX(event){
 }
 
 
-var button = document.getElementsByName('button');
-function funcion_reiniciar(addX){
-  button.removeEventListener('click', addX);
+function reset(){
+  window.location.reload();
 }
